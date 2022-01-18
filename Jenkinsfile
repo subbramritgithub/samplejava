@@ -4,7 +4,7 @@ pipeline {
         stage('compile') {
 			steps {
                 echo 'compiling..'
-				git url: 'https://github.com/Tharak456/samplejava.git'
+				git 'https://github.com/Tharak456/samplejava.git'
 				bat label: '', script: 'mvn compile'
             }
         }
