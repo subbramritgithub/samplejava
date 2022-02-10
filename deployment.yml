@@ -1,0 +1,36 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Sampleappjava-Deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: Sampleappjava
+  template:
+    metadata:
+      labels:
+        app: Sampleappjava
+    spec:
+      containers:
+      - name: Sampleapp-Containers
+        image: tomcat
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service 
+metadata:
+  name: Sampleappjava-svc
+  labels:
+    app: Sampleappjava
+spec:
+  selector:
+    app: Sampleappjava
+  type: NodePort
+  ports:
+  - nodePort: 31113
+    port: 80
+    targetPort: 8080
