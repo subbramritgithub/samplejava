@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sampleappcontainers
-        image: 7026700187/devops123:latest
+        image: 7026700187/devops123:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
