@@ -1,3 +1,3 @@
-hAIHWOKEWHFE
-gaotnnvn
-subbuis gooooooooooood bye
+he is very innocent
+subbu is very smart
+subbu is gooooooooooood girl.
