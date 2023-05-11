@@ -1,3 +1,2 @@
-he is very innocent
-subbu is very smart
-subbu is gooooooooooood girl.
+pavi is very bad 
+Pavi is very innocent.
