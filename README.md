@@ -1,2 +1,2 @@
-pavi is very bad 
-Pavi is very innocent.
+pavi is ps
+Pavi is very good 
